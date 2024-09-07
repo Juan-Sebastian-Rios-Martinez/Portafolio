@@ -1,0 +1,96 @@
+body {
+
+  height: 4155px;
+  background: linear-gradient(#626dc7 0%, #c6a0e9 100%);
+  margin: 0;
+  padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+@media (max-width: 1920px) {
+
+  html {
+    zoom: .89;
+  }
+
+
+}
+
+@media (max-width:1680px) {
+
+  html {
+    zoom: .56;
+  }
+
+}
+
+@media (max-width: 1441px) {
+
+  html {
+    zoom: .48;
+  }
+
+}
+
+@media (max-width: 1202px) {
+
+  html {
+    zoom: .40;
+  }
+
+}
+
+@media (max-width: 963px) {
+
+  html {
+    zoom: .32;
+  }
+
+}
+
+@media (max-width: 724px) {
+
+  html {
+    zoom: .24;
+  }
+
+}
+
+@media (max-width: 485px) {
+
+  html {
+    zoom: .16;
+  }
+
+}
+
+@media (max-width: 246px) {
+
+  html {
+    zoom: .8;
+  }
+
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.main-svg {
+  position: absolute;
+  z-index: 1;
+
+}
+
+.button-container {
+  opacity: 0%;
+  position: absolute;
+  z-index: 2;
+
+}
+
+.anclas {
+  fill: #626dc7;
+}
